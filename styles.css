@@ -1,0 +1,380 @@
+ #homeBody{
+   background-image: url(https://wallpapercave.com/wp/wp2497026.jpg);
+  background-size: 1500px;
+}
+
+
+.logo{
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  left: 1200px;
+  top: 70px;
+  opacity: 0.8;
+}
+
+
+button{
+  margin: 15px;
+  padding: 8px 8px;
+  border: 1px solid #FFD021;
+  background: #FFD021;
+  color: black;
+  font-size: 18px;
+  border-radius: 10px;
+}
+button:hover{
+  border: 4px solid white;
+  cursor: pointer;
+  /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
+}
+
+/* button positioning on map */
+#syria{
+  position: absolute;
+  left: 800px;
+  top: 375px;
+}
+#australia{
+  position: absolute;
+  left: 1150px;
+  top: 600px;
+}
+#usa{
+  position: absolute;
+  left: 330px;
+  top: 340px;
+}
+#africa{
+  position: absolute;
+  left: 750px;
+  top: 450px;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+
+
+/* SLIDESHOW */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  /* color: #f2f2f2; */
+  color: black;
+  background-color: white;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 95.3%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+/* SLIDESHOW */
+
+
+
+
+
+
+
+
+
+
+
+/* h1{
+  color: #667292;
+  text-align: center;
+
+}
+
+h1{
+  color: #667292;
+  text-align: center;
+
+}
+
+h2{
+color: #667292;
+}
+
+h3{
+  color: #667292;
+
+}
+
+
+p{
+  color: white;
+  font-size: 20px;
+} */
+
+/* button{
+  margin: 15px;
+  padding: 12px 18px;
+  border: 1px solid white;
+  background: #FFD021;
+  color: black;
+  font-size: 18px;
+  border-radius: 10px;
+  ;
+}
+
+button:hover{
+  border: 4px solid white;
+  cursor: pointer;
+  /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
+}
+
+/* #new-message{
+  font-size: 20px; */
+}
+
+}
+
+/* END OF USA */
+
+
+
+
+
+
+}
+
+
+
+
+/
+
+
+/* .koteret {
+  color: pink;
+}
+.firstsyriapic{
+  width:400px;
+  height:400px;
+}
+
+.secondsyriapic{
+  width:400px ;
+  height:400px ;
+}
+.thirdsyriapic{
+width:400px ;
+height:400px ;
+}
+.fourthsyriapic{
+  width:400px ;
+  height:400px ;
+}
+.syria-button{
+  background-color:#EACAE5;
+  button:hover{
+  border: 4px solid white;
+  cursor: pointer;
+}
+} */
+
+
+/* Australia */
+
+/* #aus-body {
+  background-color: #F9FAFF
+}
+
+#aus-facts {
+  background-color: #B4EBBA;
+  margin: 5px;
+  padding: 10px 20px;
+  border: 1px solid #B4EBBA;
+  font-size: 17px;
+  border-radius: 4px;
+}
+
+#text {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 19px;
+  font-family: Tahoma, Geneva, sans-serif;
+  color: #B4EBBA;
+  /* text-shadow: 1px 1px black; */
+  /* position: relative;
+  right: -150px;
+  top: -55px;
+}
+
+.ausSummary {
+  position: relative;
+  bottom: 10px;
+}
+
+#ausSummaryTitle {
+  color: #659BEB;
+}
+#ausSummaryText {
+  color: black;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+.ausQuotes {
+  font-size: 60px;
+  position: relative;
+  bottom: 60px;
+  color: pink;
+  display: flex;
+  justify-content: center;
+}
+
+.ausSpeakers {
+  font-size: 19px;
+  position: relative;
+  bottom: 150px;
+  left: 500px;
+  display: flex;
+  justify-content: center;
+}
+#
+
+img {
+  height: 350px;
+  width: 500px;
+}
+} */ */
+
+for slideshow /* */
+
+
+}
+/* #usaBody{
+  background-color: #FFA099; */
+
+
+/* #random-facts:hover{
+ border: 4px solid white;
+ cursor: pointer; */
+
+
+/* #australia:hover{
+   border: 4px solid white;
+   cursor: pointer; */
+
+#usa:hover{
+    border: 4px solid white;
+    cursor: pointer;
+
+
+#africa:hover{
+         border: 4px solid white;
+         cursor: pointer; */

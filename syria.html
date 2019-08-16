@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./syria.css"></link>
+    <title>Syria html</title>
+  </head>
+
+
+
+
+  <body id="syria-body">
+
+
+    <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="aboutus.html">About Us</a>
+      <a href="references.html">References</a>
+      <a href="donations.html">Donate</a>
+    </div>
+    <br>
+<!-- <a href="index.html"><button id="back-to-map"> Return To Map</button></a> -->
+<h1 class="koteret">Syrian Civil War</h1>
+
+<!-- quotes about the crises -->
+
+
+</p>
+<p>
+<!-- actual text -->
+<h1 class="so">So, here's the deal...</h1>
+<br><p class="paragraph">The Syrian civil war, is an ongoing armed conflict in Syria. It is a conflict between forces of the government and forces who want to remove this government. The conflict began on 15 March 2011, with demonstrations. These demonstrations were like demonstrations held in other Arab countries, which has been called the Arab Spring. Protesters in Syria demanded the resignation of the President Bashar al-Assad. His family has held the presidency in Syria since 1971. Many of Assad's supporters are Shia while the majority of the government opposition is Sunni.
+In April 2011, the Syrian Army fired on demonstrators across the country. After months of military battles, the protests turned into an armed rebellion. Opposition forces were soldiers who had left the Syrian army and civilian volunteers. Opposition fighters had no central leadership. Battles took place in many towns and cities across the country. In late 2011 the Islamist group al-Nusra Front began to have a bigger role in the forces. In 2013 Hezbollah (a lebaneese terrorist group)  entered the war in support of the Syrian army.
+The Syrian government received military support from Russia and Iran. Qatar and Saudi Arabia gave weapons to the rebels.
+According to the United Nations, a total of 120,000 were killed by September 2013. In addition, tens of thousands of protesters were put in jail. There were reports that the Syrian government was torturing prisoners .International organizations accused both government and opposition forces of breaching human rights. The UN said most of the abuses were carried out by the Syrian government. More than 4 million Syrians were forced to relocate because of the battles and more than 2 million refugees left their country.
+In 2013 the Syrian regime used Chemical weapons against the rebels. The government reportedly surrendered their chemical weapons in 2014 but continued the war using other weapons. Later in 2014, ISIS  became the most powerful opposing army, controlling more territory than the Syrian government itself.
+With all of this going on in Syria a lot of Syrians are forced to flee to other countries.</p>
+
+</p>
+
+
+<!-- <img src="https://media.globalcitizen.org/thumbnails/76/d6/76d6e367-6326-4d51-86d1-7affdfc7641a/09-16-2015homs_syria.jpg__1024x683_q85_crop_subsampling-2_upscale.jpg" class="fourthsyriapic" alt="fourthsyriapic"> -->
+<br>
+
+
+<h1 class="q"> <u> Quotes:</u></h>
+
+  <p>"We are not living here, it's just an existence" -Asia Amira </p>
+  <br>
+  <br>
+ <p> "I am scared that one day I will look online and see a picture of my daughter and... She's starving to death" -Amina, asylum seeker
+ </p>
+
+  <br>
+<button class="syria-button">Facts about Syria</button>
+
+<p id="new-message"></p>
+
+<!-- SLIDESHOW  -->
+
+<div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="https://static01.nyt.com/newsgraphics/2015/02/11/syria-damage/182fd1c2db4749fa254683d8f5910651cca25d84/images/lead-photo-1600.jpg" style="width:100%">
+        <div class="text">The Kurdish town of Kobani is devastated after months under siege and airstrikes</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="https://i.cbc.ca/1.3489328.1457861747!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/mideast-crisis-syria-demistura.jpg" style="width:100%">
+        <div class="text">Syrian Children</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="https://media.globalcitizen.org/thumbnails/ea/91/ea91b993-b529-4aed-95f7-02b5678ab352/syria_un013175_2016.jpg__1024x683_q85_crop_subsampling-2_upscale.jpg" style="width:100%">
+        <div class="text">Syrian Children</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+      <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+      }
+      </script>
+
+
+<!-- SLIDESHOW -->
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src = "./syria.js"></script>
+  </body>
+</html>

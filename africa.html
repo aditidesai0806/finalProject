@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet"  href="./africa.css">
+
+  </head>
+
+
+
+
+  <body class="africaBody">
+
+
+    <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="aboutus.html">About Us</a>
+      <a href="references.html">References</a>
+      <a href="donations.html">Donate</a>
+    </div>
+
+
+
+    <h1 id="africaHeaders"> Menstrual Health In Africa </h1>
+
+
+
+    <h2 id="one"> So What's The Deal? </h2>
+    <p> Girls around the world lack the basic knowledge about their sexual and reproductive health. Many struggle to access menstrual health supplies; others grapple with shame, taboos, surrounding menstruation. These fundamental issues undermine girls’ health and rights. Girls can be subjected to stigman and even miss school due to the difficulty in managing their menstrual hygiene. Many of these concerns were addressed at the recent Menstrual Health Management Symposium in Johannesburg, South Africa. It is the first such meeting which is being held in the region. It was organized by the South African Department of Women and the UNFPA. The symposium aims to break down the taboos and build positive norms around menstruation.</p>
+    <h2 id="two"> Facts About Africa: </h2>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+    <div class = "aditisbutton">
+ <!-- <button height= 20px; width = 20px; class="first-button"> FACT! </button> -->
+ <!-- <button class = "btn button" onclick = "doSomething()">Click Me!</button> -->
+<button id="random-facts" type="button" >Press for Facts</button>
+
+   <p id="new-message"></p>
+
+
+<h2 id="three"> Victims' Quotes </h2>
+
+<p> "I put [it] on in the morning, it will be wet with blood at 10 a.m. and start showing on my skirt," says Esuvati Tisanai Shaushi, a 15-year-old Maasai girl who lives in a village near Arusha. Her school, like many in Tanzania, doesn't have toilets with running water to wash.” </p>
+<br> <p> "I feel ashamed... [I] keep on wondering how it will be [what will happen] in class." </p>
+
+
+<!-- Images for Slideshow -->
+
+<div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="https://gowlingwlg.com/getmedia/faae3367-3295-4bea-b334-6461ba4cf5b7/20170503_Africa_healthcare-min.jpg.xml?width=620&height=300&ext=.jpg" style="width:100%">
+
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="http://www.period.media/wp-content/uploads/2017/07/Community-Development-Network.jpg" style="width:100%">
+
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="https://guardian.ng/wp-content/uploads/2017/06/MAC21_WELLS_CAROUSEL01.jpg" style="width:100%">
+
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+      <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+      }
+      </script>
+
+
+
+
+
+
+      <!-- <div id="slideshow">
+         <div>
+           <img src="https://gowlingwlg.com/getmedia/faae3367-3295-4bea-b334-6461ba4cf5b7/20170503_Africa_healthcare-min.jpg.xml?width=620&height=300&ext=.jpg">
+         </div>
+         <div>
+           <img src="http://www.period.media/wp-content/uploads/2017/07/Community-Development-Network.jpg">
+         </div>
+         <div>
+           <img src="https://guardian.ng/wp-content/uploads/2017/06/MAC21_WELLS_CAROUSEL01.jpg">
+         </div>
+       </div> -->
+
+
+   <!-- The dots/circles -->
+<div style="text-align:center">
+     <span class="dot" onclick="currentSlide(1)"></span>
+     <span class="dot" onclick="currentSlide(2)"></span>
+     <span class="dot" onclick="currentSlide(3)"></span>
+   </div>
+   <!-- <button id="back-to-map" type="button"> Return To Map</button> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <button id="back-to-map" type="button"> Return To Map</button> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./africa.js"></script>
+
+  </body>
+</html>
